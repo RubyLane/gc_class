@@ -19,7 +19,7 @@ gc_class create Foo {
 	}
 }
 
-proc bar {
+proc bar {} {
 	Foo instvar foo1 "first example"
 	$foo1 greet		;# says "hello, first example"
 
