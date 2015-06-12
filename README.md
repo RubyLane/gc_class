@@ -26,7 +26,7 @@ proc bar {
 	Foo instvar foo2 "second example"
 	$foo2 greet		;# says "hello, second example"
 
-	Foo instvar foo2 "third example"	;# second example instance dies here
+	Foo instvar foo2 "third example"	;# second example dies here
 	$foo2 greet		;# says "hello, third example"
 
 	Foo instvar foo4 "fourth example"
