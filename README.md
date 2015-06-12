@@ -43,8 +43,12 @@ proc bar {
 
 bar
 
+# One Foo instance remains, the "fifth example"
+
 $foo5 greet		;# says "hello, fifth example"
 unset foo5		;# fifth example dies here
+
+# No instances of Foo remain
 ~~~
 
 That's about it really.  Everything else should work the same as objects created directly from oo::class.
